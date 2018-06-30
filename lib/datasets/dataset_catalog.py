@@ -111,6 +111,18 @@ DATASETS = {
         ANN_FN:
             _DATA_DIR + '/coco/annotations/instances_val2017.json',
     },
+    'gtadagger_train': {
+        IM_DIR:
+            _DATA_DIR + '/gtadagger/images',
+        ANN_FN:
+            _DATA_DIR + '/gtadagger/annotations/train.json',
+    },
+    'gtadagger_val': {
+        IM_DIR:
+            _DATA_DIR + '/gtadagger/images',
+        ANN_FN:
+            _DATA_DIR + '/gtadagger/annotations/val.json',
+    },
     'coco_2017_test': {  # 2017 test uses 2015 test images
         IM_DIR:
             _DATA_DIR + '/coco/images/test2015',

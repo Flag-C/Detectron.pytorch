@@ -244,7 +244,11 @@ def _expand_bbox_targets(bbox_target_data):
         start = 4 * cls
         end = start + 4
         bbox_targets[ind, start:end] = bbox_target_data[ind, 1:]
-        bbox_inside_weights[ind, start:end] = (1.0, 1.0, 1.0, 1.0)
+        try:
+            bbox_inside_weights[ind, start:end] = (1.0, 1.0, 1.0, 1.0)
+        except:
+            import pdb
+            pdb.set_trace()
     return bbox_targets, bbox_inside_weights
 
 

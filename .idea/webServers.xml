@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6b97917-6d14-4225-8bd0-05c436ebd535" name="basilisk" url="http://qizhicai@basilisk.ist.berkeley.edu">
+        <fileTransfer host="qizhicai@basilisk.ist.berkeley.edu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/qizhicai" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
